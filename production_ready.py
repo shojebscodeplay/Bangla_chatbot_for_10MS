@@ -14,7 +14,7 @@ import unicodedata
 load_dotenv()  # Load variables from .env file
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-DB_FAISS_PATH = r"C:\Users\Dell\Desktop\bots\new_bot\bangla_pdf_vector_store"
+DB_FAISS_PATH = "bangla_pdf_vector_store"
 EMBEDDING_MODEL = "intfloat/multilingual-e5-base"
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
