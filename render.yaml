@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: bangla-chatbot
+    runtime: python
+    python:
+      version: "3.12.11"
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: |
+      uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PORT
+        value: 10000
+    plan: free
+    memory:
+      max: 1024MB  # Request 1GB for sentence-transformers
+    healthCheckPath: /
