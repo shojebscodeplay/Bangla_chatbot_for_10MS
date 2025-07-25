@@ -4,7 +4,9 @@ A modular Retrieval-Augmented Generation (RAG) based system for answering questi
 This project integrates PDF parsing, Bangla OCR preprocessing, chunking, semantic search using FAISS, and LLM-based response generation with memory. 
 
 ---
-# API Documentation: 
+# API Documentation:
+The model I am using for Bangla text is too large to deploy on Render, so I cannot provide you with the API documentation link. Instead, I am sharing a video link from my local machine where you can see that if the context is provided correctly, it gives correct answers for most of the questions.
+[Watch the video demo](https://drive.google.com/file/d/1zXO13mf7LjOVyoS3qW-bUNQBbaxn0PcU/view?usp=drive_link)
 
 
 ## 🚀 Project Motivation
